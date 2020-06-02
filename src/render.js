@@ -19,7 +19,7 @@ startBtn.onclick = (e) => {
 stopBtn.onclick = (e) => {
 	mediaRecorder.stop();
 	startBtn.classList.remove('is-danger');
-	startBtn.innerText = 'Start';
+	startBtn.innerText = 'Start Recording';
 };
 
 videoSelectBtn.onclick = getVideoSources;
